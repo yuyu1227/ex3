@@ -6,6 +6,12 @@ int main(){
     int n;
     int count_H = 0;
     int count_T = 0;
+    char name[10];
+
+    printf("What is your name?\n");
+    printf("> ");
+    scanf("%s",name);
+    printf("Hello, %s!\n",name);
 
     printf("Tossing a coin...\n");
 
