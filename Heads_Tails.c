@@ -28,4 +28,10 @@ int main(){
 
     printf("Heads: %d,tails: %d\n", count_H,count_T);
 
+    if(count_H > count_T){
+        printf("%s won!\n",name);
+    }else{
+        printf("%s lost!\n",name);
+    }
+
 }
